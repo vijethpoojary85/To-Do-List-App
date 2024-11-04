@@ -245,7 +245,7 @@ export default function TodoList() {
                   onMouseEnter={() => setHovered(task.id, true)}
                   onMouseLeave={() => setHovered(task.id, false)}
                 >
-                  <label className="flex items-center w-full cursor-pointer">
+                  <label className="flex items-center w-full cursor-pointer mt-1 mb-1">
                     <div className="relative flex items-center">
                       <input
                         type="checkbox"
@@ -298,7 +298,7 @@ export default function TodoList() {
                       )}
                     </div>
                   </label>
-                  <div className="ml-auto flex space-x-2 opacity-0 group-hover:opacity-100">
+                  <div className="ml-auto flex space-x-2 opacity-25 group-hover:opacity-100 ">
                     {editingTask === task.id ? (
                       <>
                         <button
@@ -318,13 +318,13 @@ export default function TodoList() {
                       <>
                         <button
                           onClick={() => startEditing(task)}
-                          className="text-gray-400 hover:text-gray-600 focus:outline-none"
+                          className="text-gray-400 hover:text-blue-600 focus:outline-none"
                         >
                           <Edit2 className="w-5 h-5" />
                         </button>
                         <button
                           onClick={() => deleteTask(task.id)}
-                          className="text-gray-400 hover:text-gray-600 focus:outline-none"
+                          className="text-gray-400 hover:text-red-600 focus:outline-none"
                         >
                           <Trash2 className="w-5 h-5" />
                         </button>
