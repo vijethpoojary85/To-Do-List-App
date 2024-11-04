@@ -16,10 +16,9 @@ This is a Todo List application built with [Next.js](https://nextjs.org/), a pop
 
 ## Tech Stack
 
-- **Next.js**: React framework for server-side rendering and static site generation.
-- **Tailwind CSS**: Utility-first CSS framework for rapid UI development.
-- **React Hooks**: State management and lifecycle methods.
+- Next.js, React, TailwindCSS, HTML, CSS
 
 ## Demo
-![image](https://github.com/user-attachments/assets/fc068423-be96-4ddc-aeb9-19e1d72f1bb8)
+![image](https://github.com/user-attachments/assets/adceca20-3d8f-476e-ad58-93da76eb653e)
+
 
