@@ -236,7 +236,7 @@ export default function TodoList() {
             )}
           </div>
 
-          <div className="flex-grow overflow-hidden">
+          <div className="flex-grow overflow-hidden pt-6">
             <ul className="max-h-[220px] overflow-y-auto space-y-8 ml-4 md:ml-6">
               {tasks.map((task) => (
                 <li
