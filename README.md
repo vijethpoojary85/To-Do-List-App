@@ -1,36 +1,25 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## Overview
 
-First, run the development server:
+This is a Todo List application built with [Next.js](https://nextjs.org/), a popular React framework for server-side rendering and static site generation. The app is styled with [Tailwind CSS](https://tailwindcss.com/) to create a modern and responsive user interface. Users can add, edit, delete, and mark tasks as completed. Additionally, tasks can be sorted by date added or completion status.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Add Tasks**: Users can input text to create new tasks.
+- **Edit Tasks**: Existing tasks can be edited and saved.
+- **Delete Tasks**: Tasks can be removed from the list.
+- **Complete Tasks**: Users can mark tasks as completed, with completed tasks displayed in a different style.
+- **Sort Tasks**: Tasks can be sorted by:
+  - Date added (ascending or descending)
+  - Completion status (completed first or incomplete first)
+- **Clear All Tasks**: Option to clear the entire task list.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **Next.js**: React framework for server-side rendering and static site generation.
+- **Tailwind CSS**: Utility-first CSS framework for rapid UI development.
+- **React Hooks**: State management and lifecycle methods.
 
-## Learn More
+## Demo
+![image](https://github.com/user-attachments/assets/fc068423-be96-4ddc-aeb9-19e1d72f1bb8)
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
