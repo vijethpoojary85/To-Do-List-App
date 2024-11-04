@@ -1,4 +1,3 @@
-![todolist](https://github.com/user-attachments/assets/8df797f7-3c66-49d3-a9d8-3d7845ce5383)# Next.js Todo List Application
 
 ## Overview
 
